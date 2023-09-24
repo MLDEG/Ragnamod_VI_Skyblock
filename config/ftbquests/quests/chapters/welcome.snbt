@@ -1,0 +1,185 @@
+{
+	id: "18A6A629A0AB1CEB"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "kubejs:sphere"
+	subtitle: ["Bonjour."]
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -3.5d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ragnamod:textures/logo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ragnamod:textures/sky.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Welcome"
+			x: 0.0d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"Welcome to Ragnamod VI In The Sky."
+				""
+				"This modpack invites you to discover several mods with a follow-up on the Quest book."
+				"This is not mandatory to take advantage of the modpack but gives you several objectives to accomplish."
+				""
+				"Several craft have been modified to bring a little more difficulty and a good mix between the mods, it remains nevertheless a modpack accessible to all with an acceleration of the difficulty for the creative items."
+			]
+			size: 2.0d
+			id: "2B04C39F8061A391"
+			tasks: [{
+				id: "512BFD0BD6AC1144"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: -1.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"Like I said, this modpack doesn't force you to play around with the quests."
+				""
+				"It's your choice to follow them or not."
+				""
+				"Be aware, however, that some quests give you explanations, for example how to enter the Twilight Forest."
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "7FE28D790C05A013"
+			tasks: [{
+				id: "14B057AD3CEE2CAE"
+				type: "checkmark"
+				title: "Quests"
+			}]
+			rewards: [{
+				id: "76CACB701FA0746F"
+				type: "item"
+				item: "ftbquests:book"
+			}]
+		}
+		{
+			title: "Creative Quests"
+			icon: "thermal:lock"
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
+			dependencies: ["2B04C39F8061A391"]
+			id: "04BBC0D3045DE9D9"
+			tasks: [{
+				id: "33966D61D39939C5"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "jellyfishing:triple_gooberberry_sunrise"
+			x: -1.5d
+			y: 0.5d
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"To do this, type the command:"
+				"/ftbteams party create."
+				""
+				"Now go to your inventory menu and click on the button at the top left \"My Team\"."
+				"You can, from there, click on Settings to configure your team (name, color, description, etc ...)"
+				""
+				"You just have to invite your friends with the command:"
+				"/ftbteams party invite NAME"
+				""
+				"Your friends just have to accept, and you are now in a team."
+				""
+				"If you want to join an already existing team you just have to type the command:"
+				"/ftbteams party join TEAM NAME"
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "3D5841B8216C4182"
+			tasks: [{
+				id: "3A9BEFC1E2BB53C9"
+				type: "checkmark"
+				title: "FTB TEAM"
+			}]
+		}
+		{
+			title: "Ores Tooltips"
+			icon: "minecraft:diamond_ore"
+			x: 1.5d
+			y: 0.5d
+			shape: "octagon"
+			description: [
+				"You'll find in Tooltips information on the Y level, where the ores spawn in Lost City!"
+				"{image:kubejs:textures/ftbquests/ore.png width:250 height:100 align:1 fit:true}"
+				"The information given is the best layer to mine."
+				"§aCommon §f| §6Uncommon §f| §bRare §f| §dVery Rare"
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "46EA919C01D191F6"
+			tasks: [{
+				id: "5A0EC4AFA7018DEC"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "minecraft:grass_block"
+			x: 1.0d
+			y: 1.5d
+			shape: "pentagon"
+			description: [
+				"If you are in a single player, you just need to know this command :"
+				""
+				"/skyblock spawn"
+				"Teleport you back to the spawn."
+				""
+				"Now if you are on a server you need to know more commands:"
+				""
+				"/skyblock create <name>"
+				"Create your Island with a name."
+				""
+				"/skyblock team <new name>"
+				"Rename your team, created at the same time as your island."
+				""
+				"/skyblock home"
+				"Teleport you back to your spawn Island (not the server Spawn)"
+				""
+				"/skyblock join <team>"
+				"Join a team."
+				""
+				"/skyblock leave"
+				"Leave you team (so your Island)"
+				""
+				"/skyblock visit <team>"
+				"Visit an Island."
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "143257E39D5E02BC"
+			tasks: [{
+				id: "7D2CD8DE1B16E88C"
+				type: "checkmark"
+				title: "Skyblock"
+			}]
+		}
+	]
+}

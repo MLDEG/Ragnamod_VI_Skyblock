@@ -1,0 +1,11 @@
+{
+  "type": "exnihilosequentia:crucible",
+  "input": {
+    "tag": "ragna:stone_to_lava"
+  },
+  "amount": 250,
+  "fluidResult": {
+    "fluid": "minecraft:lava"
+  },
+  "crucibleType": "fired"
+}

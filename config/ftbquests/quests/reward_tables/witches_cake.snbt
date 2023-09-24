@@ -1,0 +1,169 @@
+{
+	id: "7B40ADE3555CB4BA"
+	order_index: 2
+	title: "Witche's Cake"
+	icon: {
+		id: "thermal:potion_cake"
+		Count: 1b
+		tag: {
+			Potion: "upgrade_aquatic:vibing_strong"
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "buzzier_bees:strong_unluck"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "apotheosis:strong_knowledge"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "cyclic:strong_haste"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "cyclic:stun"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "cyclic:blind"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "cyclic:hunger"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "undergarden:strong_brittleness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:levitation"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:extended_night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:powerful_instant_health"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "quark:strong_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "upgrade_aquatic:restfulness_strong"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "quark:strong_resilience"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "quark:long_danger_sight"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "eidolon:long_anchored"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "undergarden:long_virulent_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: {
+					Potion: "undergarden:long_glowing"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,114 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "exnihilosequentia:mesh_emerald"
+  },
+  "transitionalItem": {
+    "item": "exnihilosequentia:mesh_emerald"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        },
+        {
+          "item": "woot:red_dyecasing"
+        }
+      ],
+      "results": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        },
+        {
+          "item": "woot:yellow_dyecasing"
+        }
+      ],
+      "results": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        },
+        {
+          "item": "woot:lime_dyecasing"
+        }
+      ],
+      "results": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        },
+        {
+          "item": "woot:light_blue_dyecasing"
+        }
+      ],
+      "results": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        },
+        {
+          "item": "woot:blue_dyecasing"
+        }
+      ],
+      "results": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        },
+        {
+          "item": "woot:purple_dyecasing"
+        }
+      ],
+      "results": [
+        {
+          "item": "exnihilosequentia:mesh_emerald"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "exnihilosequentia:mesh_netherite",
+      "chance": 1.0
+    }
+  ],
+  "loops": 5
+}

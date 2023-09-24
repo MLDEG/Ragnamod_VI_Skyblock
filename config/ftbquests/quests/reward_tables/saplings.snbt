@@ -1,0 +1,16 @@
+{
+	id: "1F37E44A6F7F3D80"
+	order_index: 1
+	title: "Saplings"
+	icon: "minecraft:oak_sapling"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_sapling", count: 4, weight: 2 }
+		{ item: "minecraft:spruce_sapling", count: 4, weight: 2 }
+		{ item: "minecraft:birch_sapling", count: 4, weight: 2 }
+		{ item: "minecraft:jungle_sapling", count: 4, weight: 2 }
+		{ item: "minecraft:acacia_sapling", count: 4, weight: 2 }
+		{ item: "minecraft:dark_oak_sapling", count: 4, weight: 2 }
+		{ item: "architects_palette:twisted_sapling", count: 4 }
+	]
+}

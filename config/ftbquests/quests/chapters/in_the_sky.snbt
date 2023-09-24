@@ -1,0 +1,1796 @@
+{
+	id: "46088BE1A8F30A28"
+	group: ""
+	order_index: 2
+	filename: "in_the_sky"
+	title: "In The Sky"
+	icon: "exnihilosequentia:mesh_netherite"
+	subtitle: ["Valhalla"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pebbles from dirt"
+			x: 0.0d
+			y: 0.0d
+			description: ["Shift right click on grass or dirt will give you pebbles."]
+			dependencies: ["6918F92BEE8BE6C2"]
+			size: 1.5d
+			id: "498417EF0B951326"
+			tasks: [
+				{
+					id: "46DE741834BFC343"
+					type: "item"
+					item: "ragnamod_6_sky:cobble_pebble"
+				}
+				{
+					id: "0B52BE154FEC798A"
+					type: "item"
+					item: "ragnamod_6_sky:andesite_pebble"
+				}
+				{
+					id: "6AE5B548347863B5"
+					type: "item"
+					item: "ragnamod_6_sky:diorite_pebble"
+				}
+				{
+					id: "700362F3D437AD91"
+					type: "item"
+					item: "ragnamod_6_sky:granite_pebble"
+				}
+				{
+					id: "743E76ACD97E6313"
+					type: "item"
+					item: "ragnamod_6_sky:gabbro_pebble"
+				}
+				{
+					id: "5CC5E9CCB569030F"
+					type: "item"
+					item: "ragnamod_6_sky:basalt_pebble"
+				}
+				{
+					id: "38156C6714E9C999"
+					type: "item"
+					item: "ragnamod_6_sky:blackstone_pebble"
+				}
+				{
+					id: "170B245DCE95C27B"
+					type: "item"
+					item: "ragnamod_6_sky:deepslate_pebble"
+				}
+			]
+			rewards: [{
+				id: "20795A953FEB753A"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "It's raining silkworm, eurk !"
+			icon: {
+				id: "exnihilosequentia:crook_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"Craft a Stone Crook and break leaves with it."
+				"It makes silkworm rain !"
+				""
+				"You can get more loot, like saplings, with it!"
+			]
+			dependencies: ["6EB832975AA5A646"]
+			id: "2E0E683C08DE8961"
+			tasks: [
+				{
+					id: "714B79DD9D6B06BF"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:crook_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "731685196DF98333"
+					type: "item"
+					item: "exnihilosequentia:silkworm"
+				}
+				{
+					id: "03B5CFA5E3278CD7"
+					type: "item"
+					item: "minecraft:string"
+				}
+			]
+			rewards: [{
+				id: "734FBA3CBAC5EE83"
+				type: "item"
+				item: "minecraft:cobweb"
+				count: 16
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["Your first tier mesh."]
+			dependencies: [
+				"2E0E683C08DE8961"
+				"6EAAE2A5AF270E05"
+			]
+			id: "319E15020F201C10"
+			tasks: [{
+				id: "6E119565EBC3EE05"
+				type: "item"
+				item: "exnihilosequentia:mesh_string"
+			}]
+			rewards: [{
+				id: "235C068732F610D6"
+				type: "item"
+				item: "exnihilosequentia:mesh_string"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["Your second tier mesh."]
+			dependencies: ["319E15020F201C10"]
+			id: "1F601A5F9E8A856A"
+			tasks: [{
+				id: "5E467F58A3B306B1"
+				type: "item"
+				item: "exnihilosequentia:mesh_flint"
+			}]
+			rewards: [{
+				id: "281AD1B8FABBF0B4"
+				type: "item"
+				item: "architects_palette:flint_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["Your third tier mesh."]
+			dependencies: ["1F601A5F9E8A856A"]
+			id: "4000415D1EC1E3F0"
+			tasks: [{
+				id: "1A51B3D3357CF7F2"
+				type: "item"
+				item: "exnihilosequentia:mesh_iron"
+			}]
+			rewards: [{
+				id: "7E5D97CBF8832C37"
+				type: "item"
+				item: {
+					id: "mekanismtools:iron_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: ["Your fourth tier mesh."]
+			dependencies: ["4000415D1EC1E3F0"]
+			id: "4AF15CC7F8648D58"
+			tasks: [{
+				id: "5BED7DA4FE99CF84"
+				type: "item"
+				item: "exnihilosequentia:mesh_diamond"
+			}]
+			rewards: [{
+				id: "0B41402FE3C176E1"
+				type: "item"
+				item: "cyclic:apple_diamond"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["Your fifth tier mesh."]
+			dependencies: ["4AF15CC7F8648D58"]
+			id: "01E5B53035BF4579"
+			tasks: [{
+				id: "10E98F440330CF44"
+				type: "item"
+				item: "exnihilosequentia:mesh_emerald"
+			}]
+			rewards: [{
+				id: "4E5BE9221139F532"
+				type: "item"
+				item: {
+					id: "upgradednetherite:netherite_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["100% FOR ALL DROPS !!!"]
+			dependencies: ["01E5B53035BF4579"]
+			size: 2.0d
+			id: "0AD40A0F4AD1D82D"
+			tasks: [{
+				id: "50523C747AD78AD2"
+				type: "item"
+				item: "exnihilosequentia:mesh_netherite"
+			}]
+			rewards: [{
+				id: "7470FDFF9B31E776"
+				type: "item"
+				item: "exnihilosequentia:mesh_netherite"
+			}]
+		}
+		{
+			title: "Craft a Hammer"
+			icon: {
+				id: "exnihilosequentia:hammer_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -4.0d
+			description: [
+				"With a crafting table, craft your first hammer."
+				"With it, you can crush blocks to get other blocks."
+			]
+			dependencies: ["6EB832975AA5A646"]
+			id: "5247E09DFEA7E6C7"
+			tasks: [
+				{
+					id: "47F1ED814589DB50"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "61E161B7D6FBC66A"
+					type: "item"
+					title: "Any #exnihilosequentia:hammer"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:hammer"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "084E1B7B0144337B"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:hammer_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: [
+				"Your Wooden Crucible is used to make Water."
+				"Check JEI to see what you can put in it to make Water."
+			]
+			dependencies: ["6EB832975AA5A646"]
+			id: "627C1DAA0F0C44AD"
+			tasks: [{
+				id: "63BC8E1E82D5BB84"
+				type: "item"
+				item: "exnihilosequentia:crucible_wood"
+			}]
+			rewards: [{
+				id: "43FA6D0F1E0EF0A3"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"This is the first step to getting resources on your empty world!"
+				""
+				"You can lay them maximum in 5x5"
+				""
+				"Put your mesh on your sieve, then start passing your blocks through it to get resources."
+			]
+			dependencies: ["6EB832975AA5A646"]
+			id: "6EAAE2A5AF270E05"
+			tasks: [{
+				id: "3EAE96B62B09B4EB"
+				type: "item"
+				item: "exnihilosequentia:sieve"
+			}]
+			rewards: [{
+				id: "407F45E7218C54B6"
+				type: "item"
+				item: "exnihilosequentia:sieve"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: [
+				"The heavy sieve works the same way as the classic sieve, except for two rules!"
+				""
+				"1/ It only accepts compressed blocks."
+				"2/ It only works alone (so no 5x5 possible or even less)"
+			]
+			dependencies: ["6EB832975AA5A646"]
+			id: "750AA7CC31922B55"
+			tasks: [{
+				id: "0F083BE40FFF6585"
+				type: "item"
+				item: "excompressum:oak_heavy_sieve"
+			}]
+			rewards: [{
+				id: "71CF353CD2C32BBA"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "DIRT"
+			x: 1.5d
+			y: -2.0d
+			description: [
+				"The Wooden Barrel is used to make Dirt with a lot of things like leaves, saplings, foods etc..."
+				""
+				"You can also use this barrel to transform some fluids."
+			]
+			dependencies: ["6EB832975AA5A646"]
+			id: "13126CC3A1844CF8"
+			tasks: [{
+				id: "780C3AF84B92B3DE"
+				type: "item"
+				item: "exnihilosequentia:barrel_wood"
+			}]
+			rewards: [{
+				id: "564CDBB6DC3AF63F"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["The stone barrel works the same way as a wooden barrel except that it accepts hotter liquids, such as lava."]
+			dependencies: ["64242B5C6BB5683A"]
+			id: "49FBDE741DF5903D"
+			tasks: [{
+				id: "24EE9B2137E96228"
+				type: "item"
+				item: "exnihilosequentia:barrel_stone"
+			}]
+			rewards: [{
+				id: "620AAB5B71F7FF5B"
+				type: "item"
+				item: "exnihilosequentia:barrel_stone"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["Mix Clay and Bone meal to get Porcelain Clay."]
+			dependencies: ["2B32D7A2689FAC45"]
+			id: "01A8E0500C4615F9"
+			tasks: [{
+				id: "6C2927FEE413B981"
+				type: "item"
+				item: "exnihilosequentia:porcelain_clay"
+			}]
+			rewards: [{
+				id: "7D7D091DBEB3A733"
+				type: "item"
+				item: "exnihilosequentia:porcelain_clay"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			description: [
+				"The Fired Crucible can make Lava with Stone, Cobblestone etc... And make even more lava using Blackstone, Netherrack, Deepslate or Basalt !"
+				""
+				"You need, however, a heat source underneath."
+			]
+			dependencies: ["01A8E0500C4615F9"]
+			id: "0F31C56B7637B74E"
+			tasks: [{
+				id: "7A336396E2189AA2"
+				type: "item"
+				item: "exnihilosequentia:crucible_fired"
+			}]
+			rewards: [{
+				id: "36AA69B63A624913"
+				type: "item"
+				item: "exnihilosequentia:crucible_fired"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			description: ["With your porcelain clay, make some porcelain doll to summon different mobs in a barrel."]
+			dependencies: ["01A8E0500C4615F9"]
+			id: "31CC2F179BB08FAD"
+			tasks: [{
+				id: "504892EF29384D51"
+				type: "item"
+				item: "exnihilosequentia:doll_crafting"
+			}]
+			rewards: [{
+				id: "22EE5E49BB60F0CB"
+				type: "item"
+				item: "exnihilosequentia:doll_crafting"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["You are going to need it to start making hives for your bees."]
+			dependencies: ["6EB832975AA5A646"]
+			id: "6E2D58B71C6B0828"
+			tasks: [{
+				id: "0BED32384FA6EC5E"
+				type: "item"
+				item: "exnihilosequentia:beehive_frame"
+				count: 3L
+			}]
+			rewards: [{
+				id: "275C57CE724EF9E2"
+				type: "item"
+				item: "endergetic:poise_beehive"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["Blazing Doll summon a Blaze."]
+			dependencies: ["31CC2F179BB08FAD"]
+			id: "55B1D059111B8B92"
+			tasks: [{
+				id: "3F9556210FBBA74E"
+				type: "item"
+				item: "exnihilosequentia:doll_blaze"
+			}]
+			rewards: [{
+				id: "4B7C79A82BD0EE1E"
+				type: "item"
+				item: "tconstruct:blazing_bone"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["Creeping Doll summon an Enderman."]
+			dependencies: ["31CC2F179BB08FAD"]
+			id: "77DCC6F600BB7722"
+			tasks: [{
+				id: "4CD141C93EF2ADEA"
+				type: "item"
+				item: "exnihilosequentia:doll_enderman"
+			}]
+			rewards: [{
+				id: "7106E8D3ED92DE78"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["Floating Doll summon a Shulker."]
+			dependencies: ["31CC2F179BB08FAD"]
+			id: "6E0465E0E2FABF36"
+			tasks: [{
+				id: "76AAA502E88F7B83"
+				type: "item"
+				item: "exnihilosequentia:doll_shulker"
+			}]
+			rewards: [{
+				id: "122542EED641658E"
+				type: "item"
+				item: {
+					id: "xreliquary:mob_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						entity: "minecraft:shulker"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Protecting Doll summon a Guardian."]
+			dependencies: ["31CC2F179BB08FAD"]
+			id: "0FB899C7C5FCAFDA"
+			tasks: [{
+				id: "3D26B546E9E8B54B"
+				type: "item"
+				item: "exnihilosequentia:doll_guardian"
+			}]
+			rewards: [{
+				id: "185DF9553C36F7CD"
+				type: "item"
+				item: "cyclic:apple_prismarine"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["Buzzing Doll summon a Bee."]
+			dependencies: ["31CC2F179BB08FAD"]
+			id: "452487F3AEAE2E41"
+			tasks: [{
+				id: "23B5FAE00C616858"
+				type: "item"
+				item: "exnihilosequentia:doll_bee"
+			}]
+			rewards: [{
+				id: "62D734E540E95220"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["The first of a long series !"]
+			dependencies: ["6E2D58B71C6B0828"]
+			id: "0B6BF1A2EFD3E2E3"
+			tasks: [{
+				id: "0F7274404FDC4F23"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [{
+				id: "799918F848CA04AD"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+		}
+		{
+			title: "Sieving dirt for greens"
+			icon: "minecraft:wheat_seeds"
+			x: 3.5d
+			y: -2.0d
+			description: ["This is all you can get by sieving Dirt in a String Mesh."]
+			dependencies: [
+				"382AEF9478FA8024"
+				"319E15020F201C10"
+			]
+			id: "6D3AC4C031B18C8E"
+			tasks: [
+				{
+					id: "2F8598197F06869A"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "549502F74343F885"
+					type: "item"
+					item: "minecraft:melon_seeds"
+				}
+				{
+					id: "38338573143DE52E"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+				}
+				{
+					id: "79EC1941C4A0899A"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+				}
+				{
+					id: "2B6E92F255637DFD"
+					type: "item"
+					item: "exnihilosequentia:seed_carrot"
+				}
+				{
+					id: "6192343743BB4BBC"
+					type: "item"
+					item: "exnihilosequentia:seed_potato"
+				}
+				{
+					id: "0481F3A18EDBEFF0"
+					type: "item"
+					item: "exnihilosequentia:seed_cactus"
+				}
+				{
+					id: "05DAD3CA9EEC413B"
+					type: "item"
+					item: "exnihilosequentia:seed_sugarcane"
+				}
+				{
+					id: "40FC6C3B759CE61A"
+					type: "item"
+					item: "exnihilosequentia:seed_berry"
+				}
+				{
+					id: "2662B40527F7F4E4"
+					type: "item"
+					item: "exnihilosequentia:seed_bamboo"
+				}
+				{
+					id: "4F74C0A5C046B3B0"
+					type: "item"
+					item: "exnihilosequentia:seed_fern"
+				}
+				{
+					id: "1C96EF012831B501"
+					type: "item"
+					item: "exnihilosequentia:seed_large_fern"
+				}
+				{
+					id: "293A2571E05C788B"
+					type: "item"
+					item: "exnihilosequentia:ancient_spores"
+				}
+				{
+					id: "66D2B96FBD688D28"
+					type: "item"
+					item: "exnihilosequentia:grass_seeds"
+				}
+				{
+					id: "1AA9646ED0D47C31"
+					type: "item"
+					item: "exnihilosequentia:seed_oak"
+				}
+				{
+					id: "4FEE0E9C1D3F6310"
+					type: "item"
+					item: "exnihilosequentia:seed_spruce"
+				}
+				{
+					id: "3A4692B5E249C01C"
+					type: "item"
+					item: "exnihilosequentia:seed_birch"
+				}
+				{
+					id: "375186E8327EF16D"
+					type: "item"
+					item: "exnihilosequentia:seed_jungle"
+				}
+				{
+					id: "73E561C58449F5AC"
+					type: "item"
+					item: "exnihilosequentia:seed_acacia"
+				}
+				{
+					id: "2ED804F9602DF3DF"
+					type: "item"
+					item: "exnihilosequentia:seed_darkoak"
+				}
+			]
+			rewards: [{
+				id: "23AEC97C97266571"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["Craft your first dirt block using a barrel."]
+			dependencies: ["13126CC3A1844CF8"]
+			id: "382AEF9478FA8024"
+			tasks: [{
+				id: "6C72208A44313350"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "0AE664D445B5A490"
+				type: "item"
+				item: "compressium:dirt_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["Crush some gravel to gather sand."]
+			dependencies: [
+				"5247E09DFEA7E6C7"
+				"12A75643B99174D0"
+			]
+			id: "6B2257AD95C1A23D"
+			tasks: [{
+				id: "276C3E0D93C248CC"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "33F85B83487959F1"
+				type: "item"
+				item: "compressium:sand_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["Crush some cobblestone to gather gravel."]
+			dependencies: [
+				"64242B5C6BB5683A"
+				"5247E09DFEA7E6C7"
+			]
+			id: "12A75643B99174D0"
+			tasks: [{
+				id: "793C810E571191CC"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "17373971FFCD213D"
+				type: "item"
+				item: "compressium:gravel_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			description: ["Crush some sand to gather dust."]
+			dependencies: [
+				"5247E09DFEA7E6C7"
+				"6B2257AD95C1A23D"
+			]
+			id: "7EF3A737EADBE449"
+			tasks: [{
+				id: "7F3E780A88F9A086"
+				type: "item"
+				item: "exnihilosequentia:dust"
+			}]
+			rewards: [{
+				id: "400FA007954D6A88"
+				type: "item"
+				item: "excompressum:compressed_dust"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			description: ["You can get Soul Sand by passing sand through a barrel with Witch Water!"]
+			dependencies: ["3DA7CEAABEF1011D"]
+			id: "0AC760C36844858B"
+			tasks: [{
+				id: "220C1C0F0291A46B"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [{
+				id: "4ECDEB40F3DBD94D"
+				type: "item"
+				item: "compressium:soulsand_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			description: [
+				"You can obtain a Netherrack by passing a Redstone Dust in a barrel full of Lava."
+				""
+				"Use your hammer to crush Netherrack !"
+			]
+			dependencies: ["49FBDE741DF5903D"]
+			id: "6DEF30215FF17AE0"
+			tasks: [{
+				id: "351D89A0EA274523"
+				type: "item"
+				item: "exnihilosequentia:crushed_netherrack"
+			}]
+			rewards: [{
+				id: "3FD8605CB51790A1"
+				type: "item"
+				item: "excompressum:compressed_nether_gravel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.0d
+			description: [
+				"You can obtain an End Stone Block by passing a Glowstone Dust in a barrel full of Lava."
+				""
+				"Use your hammer to crush End Stone !"
+			]
+			dependencies: ["49FBDE741DF5903D"]
+			id: "052F9A2290E41712"
+			tasks: [{
+				id: "698D82503CB034C0"
+				type: "item"
+				item: "exnihilosequentia:crushed_end_stone"
+			}]
+			rewards: [{
+				id: "2D612981D0657B60"
+				type: "item"
+				item: "excompressum:compressed_ender_gravel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["You can obtain Clay by putting a Dust block in a barrel full of water !"]
+			dependencies: [
+				"627C1DAA0F0C44AD"
+				"7EF3A737EADBE449"
+			]
+			id: "2B32D7A2689FAC45"
+			tasks: [{
+				id: "375EAE16AACA6909"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "0427FAECAF225B45"
+				type: "item"
+				item: "compressium:clay_1"
+			}]
+		}
+		{
+			title: "Boing Boing"
+			x: 1.5d
+			y: -9.0d
+			description: ["To get Slime block you have to put any kind of Mushroom in a barrel full of milk !"]
+			dependencies: ["7C1934CF5C181A0E"]
+			id: "5D7CCE10C63A03B4"
+			tasks: [{
+				id: "7E88475B734554A1"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+			rewards: [{
+				id: "786AB8E5D204F6D6"
+				type: "item"
+				item: {
+					id: "tconstruct:large_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:slimewood"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mushrooms"
+			x: 1.5d
+			y: -8.0d
+			description: [
+				"To get a Brown Mushroom Block, you need to put an Ancient Spores in a barrel full of Witch Water."
+				""
+				"You can get a Red Mushroom Block by putting your brown Mushroom Block in a barrel full of Witch Water."
+			]
+			dependencies: ["3DA7CEAABEF1011D"]
+			id: "7C1934CF5C181A0E"
+			tasks: [
+				{
+					id: "59103F03003A410F"
+					type: "item"
+					item: "minecraft:brown_mushroom_block"
+				}
+				{
+					id: "46FCAF3D88E65691"
+					type: "item"
+					item: "minecraft:red_mushroom_block"
+				}
+			]
+			rewards: [
+				{
+					id: "3F8D96C8A83C17ED"
+					type: "item"
+					item: "chipped:brown_mushroom_9"
+				}
+				{
+					id: "5389B6A45C10DB16"
+					type: "item"
+					item: "chipped:red_mushroom_7"
+				}
+			]
+		}
+		{
+			title: "Under the Sea"
+			x: 3.5d
+			y: -6.0d
+			description: ["This is all you can get by sieving Sand in a String Mesh waterlogged."]
+			dependencies: [
+				"276C3E0D93C248CC"
+				"319E15020F201C10"
+				"1F6A90F2E5979F33"
+			]
+			id: "3CFB762FD41FAEA6"
+			tasks: [
+				{
+					id: "756524B9738B4B61"
+					type: "item"
+					item: "exnihilosequentia:seed_pickle"
+				}
+				{
+					id: "1262C95A58897E8B"
+					type: "item"
+					item: "exnihilosequentia:seed_kelp"
+				}
+			]
+			rewards: [{
+				id: "6A519CD61150094F"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Powders"
+			x: 3.5d
+			y: -5.0d
+			description: ["This is all you can get by sieving Dust in a String Mesh."]
+			dependencies: [
+				"7EF3A737EADBE449"
+				"319E15020F201C10"
+			]
+			id: "32E01038165A17F7"
+			tasks: [
+				{
+					id: "440ECEAB3DC33D75"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "3D45EA0D0776366E"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+			]
+			rewards: [{
+				id: "165E92607128A6D9"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "A Little Gold"
+			x: 4.5d
+			y: -8.0d
+			description: ["This is all you can get by sieving Crushed Netherrack in a Flint Mesh."]
+			dependencies: [
+				"6DEF30215FF17AE0"
+				"1F601A5F9E8A856A"
+			]
+			id: "22B753D6A43EF689"
+			tasks: [
+				{
+					id: "417A95C59930460B"
+					type: "item"
+					item: "ragnamod_6_sky:piece_gold"
+				}
+				{
+					id: "069C0ED2220625A1"
+					type: "item"
+					item: "ragnamod_6_sky:piece_soulium"
+				}
+			]
+			rewards: [{
+				id: "0665F9A7118AA1A4"
+				type: "item"
+				item: "compressium:netherrack_1"
+			}]
+		}
+		{
+			title: "Nether Stuff"
+			x: 4.5d
+			y: -7.0d
+			description: ["This is all you can get by sieving Soul Sand in a Flint Mesh."]
+			dependencies: [
+				"0AC760C36844858B"
+				"1F601A5F9E8A856A"
+			]
+			id: "69BBB5B53B7A173B"
+			tasks: [
+				{
+					id: "48E4FCD362BBE6EB"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "29A3F9B829F69F50"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+			]
+			rewards: [{
+				id: "044FE475A7ED7D87"
+				type: "item"
+				item: "compressium:soulsand_1"
+			}]
+		}
+		{
+			title: "First Metal"
+			x: 4.5d
+			y: -3.0d
+			description: ["This is all you can get by sieving Gravel in a Flint Mesh."]
+			dependencies: [
+				"12A75643B99174D0"
+				"1F601A5F9E8A856A"
+			]
+			id: "163EB637B0B4AA86"
+			tasks: [
+				{
+					id: "3125CDDF564C5A3E"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "0411A53D4AC17E66"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "4CA068F23FAC61C9"
+					type: "item"
+					item: "ragnamod_6_sky:piece_aluminum"
+				}
+				{
+					id: "151F69E76F85AE44"
+					type: "item"
+					item: "ragnamod_6_sky:piece_copper"
+				}
+				{
+					id: "24F4EF1EB65D9886"
+					type: "item"
+					item: "ragnamod_6_sky:piece_iron"
+				}
+				{
+					id: "3F20535344EAF63E"
+					type: "item"
+					item: "ragnamod_6_sky:piece_zinc"
+				}
+			]
+			rewards: [{
+				id: "2A81D6852BAF68AC"
+				type: "item"
+				item: "compressium:gravel_1"
+			}]
+		}
+		{
+			title: "First Diamond"
+			x: 5.5d
+			y: -3.0d
+			description: ["This is all you can get by sieving Gravel in an Iron Mesh."]
+			dependencies: [
+				"12A75643B99174D0"
+				"4000415D1EC1E3F0"
+			]
+			id: "2592CEA77FE4278F"
+			tasks: [
+				{
+					id: "34190E17F66E8502"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "06BEC9E7BA1B33AB"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "4CEE18CB4C84A01A"
+					type: "item"
+					item: "ragnamod_6_sky:piece_silver"
+				}
+				{
+					id: "07EB83D132580027"
+					type: "item"
+					item: "ragnamod_6_sky:piece_lead"
+				}
+			]
+			rewards: [{
+				id: "615286A643A1FC2F"
+				type: "item"
+				item: "compressium:gravel_1"
+			}]
+		}
+		{
+			title: "More Sea Stuff"
+			x: 5.5d
+			y: -6.0d
+			description: ["This is all you can get by sieving Sand in an Iron Mesh and Watterlogged."]
+			dependencies: [
+				"276C3E0D93C248CC"
+				"4000415D1EC1E3F0"
+				"1F6A90F2E5979F33"
+			]
+			id: "59BEFD68EF039F43"
+			tasks: [
+				{
+					id: "0163C188C5819AB2"
+					type: "item"
+					item: "minecraft:seagrass"
+				}
+				{
+					id: "14E7037435AC2275"
+					type: "item"
+					item: "exnihilosequentia:seed_blue_coral"
+				}
+				{
+					id: "282EE708BA95328B"
+					type: "item"
+					item: "exnihilosequentia:seed_red_coral"
+				}
+				{
+					id: "42C62010848A9320"
+					type: "item"
+					item: "exnihilosequentia:seed_yellow_coral"
+				}
+				{
+					id: "02313803DB900FAC"
+					type: "item"
+					item: "exnihilosequentia:seed_pink_coral"
+				}
+				{
+					id: "1E82EA2D9ACC954B"
+					type: "item"
+					item: "exnihilosequentia:seed_purple_coral"
+				}
+			]
+			rewards: [{
+				id: "577B90D258042384"
+				type: "item"
+				item: "compressium:sand_1"
+			}]
+		}
+		{
+			title: "First Redstone"
+			x: 5.5d
+			y: -5.0d
+			description: ["This is all you can get by sieving Dust in an Iron Mesh."]
+			dependencies: [
+				"7EF3A737EADBE449"
+				"4000415D1EC1E3F0"
+			]
+			id: "4404F1283A135548"
+			tasks: [
+				{
+					id: "3759DFC9AB858265"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "02249582550EA2A3"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+			]
+			rewards: [{
+				id: "71DB8A700382798F"
+				type: "item"
+				item: "excompressum:compressed_dust"
+			}]
+		}
+		{
+			title: "Cobalt"
+			x: 5.5d
+			y: -8.0d
+			description: ["This is all you can get by sieving Crushed Netherrack in an Iron Mesh."]
+			dependencies: [
+				"6DEF30215FF17AE0"
+				"4000415D1EC1E3F0"
+			]
+			id: "6E4BEA31B9303D8A"
+			tasks: [
+				{
+					id: "46329774818A8E88"
+					type: "item"
+					item: "ragnamod_6_sky:piece_cobalt"
+				}
+				{
+					id: "6D93C96E5A0321D5"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+				{
+					id: "12B54231832A1331"
+					type: "item"
+					item: "thermal:sulfur"
+				}
+				{
+					id: "695B0DF674C5366B"
+					type: "item"
+					item: "thermal:niter"
+				}
+			]
+			rewards: [{
+				id: "295434EFE42AF1E4"
+				type: "item"
+				item: "compressium:netherrack_1"
+			}]
+		}
+		{
+			title: "Nether Greeneries"
+			x: 5.5d
+			y: -7.0d
+			description: ["This is all you can get by sieving Soul Sand in an Iron Mesh."]
+			dependencies: [
+				"0AC760C36844858B"
+				"4000415D1EC1E3F0"
+			]
+			id: "63726B466AB4E401"
+			tasks: [
+				{
+					id: "5836C4AFAE999EA7"
+					type: "item"
+					item: "gildedingot:shroom_fruit"
+				}
+				{
+					id: "5DE63E88ED3191EC"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "3A5BC12FCCF1036E"
+					type: "item"
+					item: "brazier:warped_nether_wart"
+				}
+				{
+					id: "1291A2C6789F6E5C"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "41813728C3A3C7F2"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+			]
+			rewards: [{
+				id: "1C99DC3088918FAB"
+				type: "item"
+				item: "compressium:soulsand_1"
+			}]
+		}
+		{
+			title: "Ender Stuff"
+			x: 5.5d
+			y: -9.0d
+			description: ["This is all you can get by sieving Crushed End Stone in an Iron Mesh."]
+			dependencies: [
+				"052F9A2290E41712"
+				"4000415D1EC1E3F0"
+			]
+			id: "006B9B992851F252"
+			tasks: [
+				{
+					id: "127E5EB95CF78880"
+					type: "item"
+					item: "ragnamod_6_sky:piece_ender"
+				}
+				{
+					id: "17E8B52E9BAD81D5"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+			rewards: [{
+				id: "5CA5354C147BC85B"
+				type: "item"
+				item: "compressium:endstone_1"
+			}]
+		}
+		{
+			title: "Osmium"
+			x: 6.5d
+			y: -3.0d
+			description: ["This is all you can get by sieving Gravel in a Diamond Mesh."]
+			dependencies: [
+				"12A75643B99174D0"
+				"4AF15CC7F8648D58"
+			]
+			id: "0F0A01A452F99E0D"
+			tasks: [{
+				id: "58B3CC4CE3F82A85"
+				type: "item"
+				item: "ragnamod_6_sky:piece_osmium"
+			}]
+			rewards: [{
+				id: "12F2630D5EB0E2F7"
+				type: "item"
+				item: "compressium:gravel_1"
+			}]
+		}
+		{
+			title: "Uranium and gems"
+			x: 6.5d
+			y: -4.0d
+			description: ["This is all you can get by sieving Sand in a Diamond Mesh."]
+			dependencies: [
+				"6B2257AD95C1A23D"
+				"4AF15CC7F8648D58"
+			]
+			id: "173C473893111377"
+			tasks: [
+				{
+					id: "20685A7AD2A5BB5B"
+					type: "item"
+					item: "ragnamod_6_sky:piece_uranium"
+				}
+				{
+					id: "77C1C0DE5A7AC8B0"
+					type: "item"
+					item: "thermal:ruby"
+				}
+				{
+					id: "33CEC2D8A2DF043D"
+					type: "item"
+					item: "thermal:sapphire"
+				}
+			]
+			rewards: [{
+				id: "40372C119D40C460"
+				type: "item"
+				item: "compressium:sand_1"
+			}]
+		}
+		{
+			title: "Apatite and Cinnabar"
+			x: 6.5d
+			y: -5.0d
+			description: ["This is all you can get by sieving Dust in a Diamond Mesh."]
+			dependencies: [
+				"7EF3A737EADBE449"
+				"4AF15CC7F8648D58"
+			]
+			id: "5E8AF9ACC7B8EA02"
+			tasks: [
+				{
+					id: "42663199C668F61E"
+					type: "item"
+					item: "thermal:apatite"
+				}
+				{
+					id: "0B6E5BB8B1EA3F03"
+					type: "item"
+					item: "thermal:cinnabar"
+				}
+			]
+			rewards: [{
+				id: "20640799CF1E3A1F"
+				type: "item"
+				item: "excompressum:compressed_dust"
+			}]
+		}
+		{
+			title: "First Netherite Scrap"
+			x: 6.5d
+			y: -8.0d
+			description: ["This is all you can get by sieving Crushed Netherrack in a Diamond Mesh."]
+			dependencies: [
+				"6DEF30215FF17AE0"
+				"4AF15CC7F8648D58"
+			]
+			id: "5A56C028685D67B6"
+			tasks: [
+				{
+					id: "659E6164CDD7FD9F"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "6AE4F6AD30C9367C"
+					type: "item"
+					item: "ragnamod_6_sky:piece_tungsten"
+				}
+				{
+					id: "1FCE6788BB2CDDC8"
+					type: "item"
+					item: "ragnamod_6_sky:piece_emeraldite"
+				}
+			]
+			rewards: [{
+				id: "4A63BBD1D51FAC1D"
+				type: "item"
+				item: "compressium:netherrack_1"
+			}]
+		}
+		{
+			title: "More Nether Greeneries"
+			x: 6.5d
+			y: -7.0d
+			description: ["This is all you can get by sieving Soul Sand in a Diamond Mesh."]
+			dependencies: [
+				"0AC760C36844858B"
+				"4AF15CC7F8648D58"
+			]
+			id: "31E8E9C8844BBBAF"
+			tasks: [
+				{
+					id: "3A1830E6A7290E2F"
+					type: "item"
+					item: "minecraft:weeping_vines"
+				}
+				{
+					id: "0BFE47FF356D2FE4"
+					type: "item"
+					item: "minecraft:twisting_vines"
+				}
+				{
+					id: "64F997019F64D060"
+					type: "item"
+					item: "minecraft:crimson_roots"
+				}
+				{
+					id: "35417A6F5AC727AA"
+					type: "item"
+					item: "minecraft:warped_roots"
+				}
+			]
+			rewards: [{
+				id: "48ABD1C16C30701E"
+				type: "item"
+				item: "compressium:soulsand_2"
+			}]
+		}
+		{
+			title: "Platinum"
+			x: 6.5d
+			y: -9.0d
+			description: ["This is all you can get by sieving Crushed End Stone in a Diamond Mesh."]
+			dependencies: [
+				"052F9A2290E41712"
+				"4AF15CC7F8648D58"
+			]
+			id: "25630562FB39A5BA"
+			tasks: [
+				{
+					id: "6C6A9F798FF17BE6"
+					type: "item"
+					item: "ragnamod_6_sky:piece_platinum"
+				}
+				{
+					id: "6C0665687CD4A132"
+					type: "item"
+					item: "ragnamod_6_sky:piece_amber"
+				}
+				{
+					id: "217B349D08B4C87A"
+					type: "item"
+					item: "mekanism:fluorite_gem"
+				}
+			]
+			rewards: [{
+				id: "0F4BFFA70DDBDD4A"
+				type: "item"
+				item: "compressium:endstone_1"
+			}]
+		}
+		{
+			title: "Endumium"
+			x: 7.5d
+			y: -9.0d
+			description: ["This is all you can get by sieving Crushed End Stone in a Netherite Mesh."]
+			dependencies: [
+				"052F9A2290E41712"
+				"01E5B53035BF4579"
+			]
+			id: "3C295DF0F29DFF66"
+			tasks: [
+				{
+					id: "70DD1DABF70CF94E"
+					type: "item"
+					item: "ragnamod_6_sky:piece_endumium"
+				}
+				{
+					id: "1124EAEAA27D69DA"
+					type: "item"
+					item: "byg:ametrine_gems"
+				}
+			]
+			rewards: [{
+				id: "4A11075426C7BFBE"
+				type: "item"
+				item: "compressium:endstone_2"
+			}]
+		}
+		{
+			title: "More powerful than Netherite"
+			x: 7.5d
+			y: -8.0d
+			description: ["This is all you can get by sieving Crushed Netherrack in a Netherite Mesh."]
+			dependencies: [
+				"6DEF30215FF17AE0"
+				"01E5B53035BF4579"
+			]
+			id: "4917043AFD491160"
+			tasks: [{
+				id: "2EDBCEC1621039D6"
+				type: "item"
+				item: "ragnamod_6_sky:piece_pendorite"
+			}]
+			rewards: [{
+				id: "2867B1D720C673C5"
+				type: "item"
+				item: "compressium:netherrack_2"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			description: ["This is all you can get by sieving Dust in a Netherite Mesh."]
+			dependencies: [
+				"7EF3A737EADBE449"
+				"01E5B53035BF4579"
+			]
+			id: "79D7DDFA524F8B84"
+			tasks: [{
+				id: "28AFFDF6573B1D28"
+				type: "item"
+				item: "rats:token_fragment"
+			}]
+			rewards: [{
+				id: "5A8FEF598627197D"
+				type: "item"
+				item: "excompressum:compressed_dust"
+				count: 9
+			}]
+		}
+		{
+			title: "Magic"
+			x: 7.5d
+			y: -4.0d
+			description: ["This is all you can get by sieving Sand in a Netherite Mesh."]
+			dependencies: [
+				"6B2257AD95C1A23D"
+				"01E5B53035BF4579"
+			]
+			id: "7F4DD761D6A20C62"
+			tasks: [
+				{
+					id: "691DC7E6851D3DF6"
+					type: "item"
+					item: "ragnamod_6_sky:piece_source_gem"
+				}
+				{
+					id: "2F007CF6062ECE15"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal"
+				}
+			]
+			rewards: [{
+				id: "5AC03F7CDB2F54A0"
+				type: "item"
+				item: "compressium:sand_2"
+			}]
+		}
+		{
+			title: "Runes"
+			x: 7.5d
+			y: -3.0d
+			description: ["This is all you can get by sieving Gravel in a Netherite Mesh."]
+			dependencies: [
+				"12A75643B99174D0"
+				"01E5B53035BF4579"
+			]
+			id: "061D2C0E5BC448AB"
+			tasks: [
+				{
+					id: "1EC7B810D88BD31B"
+					type: "item"
+					item: "forbidden_arcanus:rune"
+				}
+				{
+					id: "16BA62E5AB745765"
+					type: "item"
+					item: "iceandfire:amythest_gem"
+				}
+				{
+					id: "242C1C3DF462AA4D"
+					type: "item"
+					item: "powah:uraninite"
+				}
+			]
+			rewards: [{
+				id: "1C4F367E5284D1FF"
+				type: "item"
+				item: "compressium:gravel_2"
+			}]
+		}
+		{
+			title: "Cobblestone"
+			x: 0.0d
+			y: -3.0d
+			description: ["Just craft some cobblestone with your cobble pebbles."]
+			dependencies: ["498417EF0B951326"]
+			id: "64242B5C6BB5683A"
+			tasks: [{
+				id: "341DC6676FD8A9EC"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7CE49979EBE032BB"
+				type: "item"
+				item: "compressium:cobblestone_1"
+			}]
+		}
+		{
+			title: "Get your Sapling"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Depends on what type of island you start:"
+				""
+				"Either you have to recover an oak sapling with Living Root."
+				"Either you have to break the tree on your island."
+				"Either you already have a sapling in a chest."
+				""
+				"You can twerk in front of your sapling to make it grow faster but running won't make it grow faster though!"
+			]
+			dependencies: ["6918F92BEE8BE6C2"]
+			id: "6EB832975AA5A646"
+			tasks: [{
+				id: "2DB0E9CA0F7B2653"
+				type: "item"
+				title: "Any #forge:sapling"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sapling"
+					}
+				}
+			}]
+			rewards: [{
+				id: "532D8C29941DB6D2"
+				type: "random"
+				table_id: 2249517547244174720L
+			}]
+		}
+		{
+			title: "A bigger hammer"
+			x: 0.5d
+			y: -4.0d
+			description: ["The biggest hammer will allow you to crush compressed blocks!"]
+			dependencies: ["5247E09DFEA7E6C7"]
+			id: "4692E5AC9C6A311A"
+			tasks: [{
+				id: "6E412159C0EEA056"
+				type: "item"
+				title: "Any #excompressum:compressed_hammer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:compressed_hammer"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C76537D9DBD0E36"
+					type: "item"
+					item: "compressium:sand_1"
+				}
+				{
+					id: "7465C67443DF33B6"
+					type: "item"
+					item: "compressium:gravel_1"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			description: ["Get a lava bucket using your Fired Crucible."]
+			dependencies: ["0F31C56B7637B74E"]
+			id: "2863614C6530D43A"
+			tasks: [{
+				id: "387E87684B3A8AB1"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "08EA57545F931BAD"
+				type: "item"
+				item: "lavasponge:lavasponge"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			description: [
+				"To get Witch Water, you need to transform a dirt block with an Ancient Spore to obtain Mycelium."
+				"Then put your barrel on top and fill it with water."
+				""
+				"Wait a couple of second, and you have your Witch Water !"
+			]
+			dependencies: ["13126CC3A1844CF8"]
+			id: "3DA7CEAABEF1011D"
+			tasks: [{
+				id: "08ACA142E164EF41"
+				type: "item"
+				item: "exnihilosequentia:bucket_witchwater"
+			}]
+			rewards: [{
+				id: "10F79C589BBA1FF0"
+				type: "random"
+				table_id: 8881289657075938490L
+			}]
+		}
+		{
+			icon: "create:brass_hand"
+			x: -1.0d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"{image:kubejs:textures/ftbquests/question1.png width:150 height:200 align:1}"
+				"{image:kubejs:textures/ftbquests/question2.png width:150 height:200 align:1}"
+			]
+			dependencies: ["6918F92BEE8BE6C2"]
+			id: "1EB50078ECC7DE6D"
+			tasks: [{
+				id: "51E0B0A09AE4A9D7"
+				type: "checkmark"
+				title: "What you need to know !"
+			}]
+			rewards: [{
+				id: "222358AAA0F074D2"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			title: "Nickel, Tin and Aquamarine"
+			x: 5.5d
+			y: -4.0d
+			description: ["This is all you can get by sieving Sand in an Iron Mesh."]
+			dependencies: [
+				"6B2257AD95C1A23D"
+				"4000415D1EC1E3F0"
+			]
+			id: "0C7876E9346B58C2"
+			tasks: [
+				{
+					id: "0DF25173A35DE4DC"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "151C1A26D34BB2A1"
+					type: "item"
+					item: "ragnamod_6_sky:piece_nickel"
+				}
+				{
+					id: "57B5191AD08D2336"
+					type: "item"
+					item: "ragnamod_6_sky:piece_tin"
+				}
+			]
+			rewards: [{
+				id: "7E076ADBD1F86ED6"
+				type: "item"
+				item: "compressium:sand_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			dependencies: ["627C1DAA0F0C44AD"]
+			id: "1F6A90F2E5979F33"
+			tasks: [{
+				id: "69066C65FC247D1F"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+	]
+}

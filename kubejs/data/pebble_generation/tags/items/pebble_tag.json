@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "ragnamod_6_sky:andesite_pebble",
+    "ragnamod_6_sky:blackstone_pebble",
+    "ragnamod_6_sky:cobble_pebble",
+    "ragnamod_6_sky:deepslate_pebble",
+    "ragnamod_6_sky:diorite_pebble",
+    "ragnamod_6_sky:granite_pebble",
+    "ragnamod_6_sky:gabbro_pebble",
+    "ragnamod_6_sky:basalt_pebble"
+  ]
+}

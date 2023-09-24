@@ -1,0 +1,8 @@
+{
+  "type": "exnihilosequentia:heat",
+  "block": "byg:cryptic_campfire",
+  "amount": 3,
+  "state": {
+    "lit": "true"
+  }
+}

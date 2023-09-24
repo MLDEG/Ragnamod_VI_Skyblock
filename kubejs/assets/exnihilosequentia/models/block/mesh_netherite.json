@@ -1,0 +1,6 @@
+{
+  "parent": "exnihilosequentia:block/mesh_base",
+  "textures": {
+    "texture": "ironfurnaces:block/million_furnace_side"
+  }
+}

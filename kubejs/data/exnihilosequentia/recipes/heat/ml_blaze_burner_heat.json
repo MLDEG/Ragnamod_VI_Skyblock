@@ -1,0 +1,8 @@
+{
+  "type": "exnihilosequentia:heat",
+  "block": "create:blaze_burner",
+  "amount": 15,
+  "state": {
+      "blaze": "kindled"
+  }
+}

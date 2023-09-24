@@ -1,0 +1,7 @@
+{
+  "type": "excompressum:heavy_sieve_generated",
+  "input": {
+    "item":"compressium:gravel_1"
+  },
+  "source": "minecraft:gravel"
+}

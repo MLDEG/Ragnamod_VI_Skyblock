@@ -1,0 +1,48 @@
+
+#World Stripper Config File
+[WorldStripper]
+
+	#Stripper Settings
+	[WorldStripper.Stripping]
+		#Amount of blocks to strip in on the x-axis
+		#Range: 0 ~ 320
+		blocks_to_strip_x = 48
+		#Amount of blocks to strip in on the z-axis
+		#Range: 0 ~ 320
+		blocks_to_strip_z = 48
+		#Toggles realtime world stripping / dressing
+		live_stripping = true
+		#Should bedrock be removed?
+		strip_bedrock = false
+		#Replaces every block touched by the stripper with this block
+		replacement_block = "minecraft:air"
+
+	#Stripper Profile Settings
+	[WorldStripper.Profiles]
+		#Selected profile
+		#Allowed Values: PROFILE_1, PROFILE_2, PROFILE_3, PROFILE_4, PROFILE_5
+		profile = "PROFILE_1"
+		#Profile 1 - A list of blocks to strip away from the world
+		profile_1 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:gravel", "minecraft:sand", "minecraft:sandstone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass", "byg:scoria_stone", "mekanism:osmium_ore", "embellishcraft:basalt", "minecraft:redstone_ore", "astralsorcery:marble_raw", "byg:rocky_stone", "powah:uraninite_ore", "powah:uraninite_ore_poor", "byg:soapstone", "forbidden_arcanus:darkstone", "minecraft:coal_ore", "forbidden_arcanus:arcane_crystal_ore", "janoeo:uranium_ore", "mekanism:fluorite_ore", "janoeo:zinc_ore", "janoeo:aluminium_ore", "janoeo:iron_gravel_ore", "janoeo:dense_coal_ore", "minecraft:iron_ore", "minecraft:diamond_ore", "powah:uraninite_ore_dense", "thermal:silver_ore", "kubejs:tungsten_ore", "minecraft:lapis_ore", "janoeo:dense_lapis_ore", "chisel:basalt/raw", "minecraft:gold_ore", "janoeo:dense_redstone_ore", "ars_nouveau:arcane_ore", "thermal:tin_ore", "bigreactors:yellorite_ore", "janoeo:dense_iron_ore", "mysticalagriculture:inferium_ore", "janoeo:dense_diamond_ore", "forbidden_arcanus:xpetrified_ore", "forbidden_arcanus:runestone", "thermal:cinnabar_ore", "create:natural_scoria"]
+		#Profile 2 - A list of blocks to strip away from the world
+		profile_2 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:gravel", "minecraft:sand", "minecraft:sandstone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass"]
+		#Profile 3 - A list of blocks to strip away from the world
+		profile_3 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:gravel", "minecraft:sand", "minecraft:sandstone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass"]
+		#Profile 4 - A list of blocks to strip away from the world
+		profile_4 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:gravel", "minecraft:sand", "minecraft:sandstone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass"]
+		#Profile 5 - A list of blocks to strip away from the world
+		profile_5 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:gravel", "minecraft:sand", "minecraft:sandstone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass"]
+
+	#Block Update Settings
+	[WorldStripper.BlockUpdate]
+		#Calls neighborChanged on surrounding blocks (with isMoving as false)
+		notify_neighbors = false
+		#Calls for block update
+		block_update = true
+		#Stops the blocks from being marked for a render update
+		no_render = false
+		#Makes the block be re-rendered immediately, on the main thread
+		render_main_thread = false
+		#Causes neighbor updates to be sent to ALL surrounding blocks
+		update_neighbors = true
+
